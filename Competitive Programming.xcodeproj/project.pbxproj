@@ -51,6 +51,11 @@
 		5430371926BD32A2003418DF /* Corey's Party.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Corey's Party.cpp"; sourceTree = "<group>"; };
 		5430371A26BD32F3003418DF /* Chimera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chimera.cpp; sourceTree = "<group>"; };
 		5430371B26BD331A003418DF /* Giant Hippos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Giant Hippos.cpp"; sourceTree = "<group>"; };
+		5430371D26BD3387003418DF /* Archery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Archery.cpp; sourceTree = "<group>"; };
+		5430371E26BD33A8003418DF /* Frog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Frog.cpp; sourceTree = "<group>"; };
+		5430371F26BD33CD003418DF /* Save-It.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Save-It.cpp"; sourceTree = "<group>"; };
+		5430372126BD341F003418DF /* NORT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NORT.cpp; sourceTree = "<group>"; };
+		5430372226BD3449003418DF /* Posters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Posters.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +98,8 @@
 		543036D826BD1EDC003418DF /* Archived Problems */ = {
 			isa = PBXGroup;
 			children = (
+				5430372026BD340F003418DF /* AIO 2012 */,
+				5430371C26BD3375003418DF /* AIO 2013 */,
 				5430371726BD325B003418DF /* AIO 2014 */,
 				5430371426BD31A5003418DF /* AIO 2015 */,
 				5430370E26BD2E4C003418DF /* AIO 2016 */,
@@ -184,6 +191,25 @@
 				5430371B26BD331A003418DF /* Giant Hippos.cpp */,
 			);
 			path = "AIO 2014";
+			sourceTree = "<group>";
+		};
+		5430371C26BD3375003418DF /* AIO 2013 */ = {
+			isa = PBXGroup;
+			children = (
+				5430371D26BD3387003418DF /* Archery.cpp */,
+				5430371E26BD33A8003418DF /* Frog.cpp */,
+				5430371F26BD33CD003418DF /* Save-It.cpp */,
+			);
+			path = "AIO 2013";
+			sourceTree = "<group>";
+		};
+		5430372026BD340F003418DF /* AIO 2012 */ = {
+			isa = PBXGroup;
+			children = (
+				5430372126BD341F003418DF /* NORT.cpp */,
+				5430372226BD3449003418DF /* Posters.cpp */,
+			);
+			path = "AIO 2012";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
