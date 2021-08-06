@@ -45,6 +45,8 @@
 		5430371126BD3087003418DF /* Sculpture II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sculpture II.cpp"; sourceTree = "<group>"; };
 		5430371226BD30A2003418DF /* Probe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Probe.cpp; sourceTree = "<group>"; };
 		5430371326BD30E0003418DF /* Balancing Aeroplanes II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Balancing Aeroplanes II.cpp"; sourceTree = "<group>"; };
+		5430371526BD31BF003418DF /* Snap Dragons II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Snap Dragons II.cpp"; sourceTree = "<group>"; };
+		5430371626BD31F3003418DF /* Wet Chairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Wet Chairs.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		543036D826BD1EDC003418DF /* Archived Problems */ = {
 			isa = PBXGroup;
 			children = (
+				5430371426BD31A5003418DF /* AIO 2015 */,
 				5430370E26BD2E4C003418DF /* AIO 2016 */,
 				5430370226BD2AC9003418DF /* AIO 2017 */,
 				543036FB26BD28E2003418DF /* AIO 2018 */,
@@ -156,6 +159,15 @@
 				5430371326BD30E0003418DF /* Balancing Aeroplanes II.cpp */,
 			);
 			path = "AIO 2016";
+			sourceTree = "<group>";
+		};
+		5430371426BD31A5003418DF /* AIO 2015 */ = {
+			isa = PBXGroup;
+			children = (
+				5430371526BD31BF003418DF /* Snap Dragons II.cpp */,
+				5430371626BD31F3003418DF /* Wet Chairs.cpp */,
+			);
+			path = "AIO 2015";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
