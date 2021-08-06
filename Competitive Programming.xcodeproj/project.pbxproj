@@ -56,6 +56,11 @@
 		5430371F26BD33CD003418DF /* Save-It.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Save-It.cpp"; sourceTree = "<group>"; };
 		5430372126BD341F003418DF /* NORT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NORT.cpp; sourceTree = "<group>"; };
 		5430372226BD3449003418DF /* Posters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Posters.cpp; sourceTree = "<group>"; };
+		5430372426BD3588003418DF /* Pirates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pirates.cpp; sourceTree = "<group>"; };
+		5430372526BD35BA003418DF /* Sleight of Hand.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sleight of Hand.cpp"; sourceTree = "<group>"; };
+		5430372626BD35E6003418DF /* Tickets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tickets.cpp; sourceTree = "<group>"; };
+		5430372726BD3615003418DF /* Alien.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Alien.cpp; sourceTree = "<group>"; };
+		5430372826BD364C003418DF /* Slicing Paradise.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Slicing Paradise.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +103,7 @@
 		543036D826BD1EDC003418DF /* Archived Problems */ = {
 			isa = PBXGroup;
 			children = (
+				5430372326BD3569003418DF /* AIO 2011 */,
 				5430372026BD340F003418DF /* AIO 2012 */,
 				5430371C26BD3375003418DF /* AIO 2013 */,
 				5430371726BD325B003418DF /* AIO 2014 */,
@@ -210,6 +216,18 @@
 				5430372226BD3449003418DF /* Posters.cpp */,
 			);
 			path = "AIO 2012";
+			sourceTree = "<group>";
+		};
+		5430372326BD3569003418DF /* AIO 2011 */ = {
+			isa = PBXGroup;
+			children = (
+				5430372426BD3588003418DF /* Pirates.cpp */,
+				5430372526BD35BA003418DF /* Sleight of Hand.cpp */,
+				5430372626BD35E6003418DF /* Tickets.cpp */,
+				5430372726BD3615003418DF /* Alien.cpp */,
+				5430372826BD364C003418DF /* Slicing Paradise.cpp */,
+			);
+			path = "AIO 2011";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
