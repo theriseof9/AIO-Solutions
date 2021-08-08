@@ -6,16 +6,35 @@
 //
 
 #include <bits/stdc++.h>
+#define s " "
 using namespace std;
 
 int main() {
-    ifstream cin("debtsin.txt");
-    ofstream cout("debtsout.txt");
-    int N, M = 0;
+    ifstream cin("spiesin.txt");
+    ofstream cout("spiesout.txt");
+    int N, K;
     cin >> N;
-    int arr[N];
-    for (int i = 0; i < N; i++) cin >> arr[i];
-    for (int i = 1; i < N; i++) arr[i] += arr[i-1];
-    for (int i = 0; i < N; i++) if (arr[M] < arr[i]) M = i;
-    cout << (M+1)%N+1;
+    vector<pair<int, int>> v;
+    for (int i = 0; i < N; i ++) {
+        int a, b;
+        cin >> a >> b;
+        v.push_back({a, 1});
+        v.push_back({b+1, -1});
+    }
+    cin >> K;
+    for (int i = 0; i < K; i ++) {
+        int a, b;
+        cin >> a >> b;
+        v.push_back({a, 1});
+        v.push_back({b+1, -1});
+    }
+    int ctr = 0, res = 0;
+    sort(v.begin(), v.end());
+    for (auto it = v.begin(); it != v.end(); it ++) {
+        ctr += it->second;
+        if (ctr==2) {
+            res += (it+1)->first-it->first-1;
+        }
+    }
+    cout << res;
 }

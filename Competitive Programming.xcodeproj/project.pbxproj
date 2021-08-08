@@ -99,6 +99,7 @@
 		5430375526BE1E49003418DF /* Ghost Encounters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Ghost Encounters.cpp"; sourceTree = "<group>"; };
 		5430375626BE2722003418DF /* Crowd Surfing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Crowd Surfing.cpp"; sourceTree = "<group>"; };
 		5430375726BE2BF7003418DF /* Settling Debts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Settling Debts.cpp"; sourceTree = "<group>"; };
+		54F25D8826BFFF2800CF7CBD /* Spies V: Voices in the Dark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Spies V: Voices in the Dark.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +331,7 @@
 				5430374226BD5F96003418DF /* Atlantis: The Biginning.cpp */,
 				5430374326BD5FBC003418DF /* Ants.cpp */,
 				5430374426BD5FCF003418DF /* Mouse Hunt.cpp */,
+				54F25D8826BFFF2800CF7CBD /* Spies V: Voices in the Dark.cpp */,
 			);
 			path = "AIO 2006";
 			sourceTree = "<group>";
