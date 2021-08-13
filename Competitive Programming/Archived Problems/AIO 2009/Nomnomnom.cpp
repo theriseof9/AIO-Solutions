@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("nomin.txt", "r")
 ouf = open("nomout.txt", "w")
 n = int(inf.readline())
@@ -25,4 +24,3 @@ for i in range(n):
         res += 1
         tmp = 0
 ouf.write(str(res))
-*/

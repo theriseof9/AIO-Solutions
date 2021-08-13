@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("curryin.txt", "r")
 ouf = open("curryout.txt", "w")
  
@@ -31,4 +30,3 @@ while max(c, r, v) != sum([c, r, v]):
 ouf.write(" ".join(list(map(str, [rv, cv, cr]))))
 ouf.close()
 inf.close()
-*/

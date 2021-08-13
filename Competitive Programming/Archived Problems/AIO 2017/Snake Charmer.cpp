@@ -6,7 +6,6 @@
 //
 //  Created by Wang Zerui on 6/8/21.
 
-/*
  inf = open("snakein.txt","r")
  ouf = open("snakeout.txt","w")
   
@@ -54,4 +53,4 @@
  ouf.write("".join(res))
  ouf.close()
  inf.close()
-*/
+

@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("safein.txt", "r")
 ouf = open("safeout.txt", "w")
 a, b = map(int, inf.readline().split())
@@ -44,4 +43,3 @@ for i in arr1:
     ouf.write(str(i-k)+"\n")
 inf.close()
 ouf.close()
-*/

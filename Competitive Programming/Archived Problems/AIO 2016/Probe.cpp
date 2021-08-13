@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("probein.txt", "r")
 ouf = open("probeout.txt", "w")
 _, _, rp, cp, rf, cf = map(int, inf.readline().split())
@@ -32,4 +31,4 @@ for _ in range(n):
  
 inf.close()
 ouf.close()
-*/
+

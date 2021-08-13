@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open('invin.txt', 'r')
 ouf = open('invout.txt', 'w')
  
@@ -54,4 +53,3 @@ for key in b:
 ouf.write(str(answer))
 inf.close()
 ouf.close()
-*/

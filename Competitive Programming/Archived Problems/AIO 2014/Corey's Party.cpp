@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("partyin.txt", "r")
 ouf = open("partyout.txt", "w")
 adj = [set() for _ in range(1003)]
@@ -44,4 +43,3 @@ for i in range(1, N+1):
 print(adj)
 print(degree)
 ouf.write(str(ans))
-*/

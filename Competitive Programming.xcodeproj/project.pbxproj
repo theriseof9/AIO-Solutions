@@ -99,7 +99,16 @@
 		5430375526BE1E49003418DF /* Ghost Encounters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Ghost Encounters.cpp"; sourceTree = "<group>"; };
 		5430375626BE2722003418DF /* Crowd Surfing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Crowd Surfing.cpp"; sourceTree = "<group>"; };
 		5430375726BE2BF7003418DF /* Settling Debts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Settling Debts.cpp"; sourceTree = "<group>"; };
+		54A5662926C3F4A90023454D /* Ruckus League.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Ruckus League.cpp"; sourceTree = "<group>"; };
+		54A5662A26C648E90023454D /* Carmen Sanfrancisco II: Bank Robbing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Carmen Sanfrancisco II: Bank Robbing.cpp"; sourceTree = "<group>"; };
+		54A5662B26C6491D0023454D /* Snap Dragons III: Binary Snap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Snap Dragons III: Binary Snap.cpp"; sourceTree = "<group>"; };
+		54AE9DA026C3A92F00E612C4 /* Cabinet Shuffle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Cabinet Shuffle.cpp"; sourceTree = "<group>"; };
+		54AE9DA126C3ABE600E612C4 /* King Arthur II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "King Arthur II.cpp"; sourceTree = "<group>"; };
+		54AE9DA226C3B03500E612C4 /* Psychological Jujitsu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Psychological Jujitsu.cpp"; sourceTree = "<group>"; };
 		54F25D8826BFFF2800CF7CBD /* Spies V: Voices in the Dark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Spies V: Voices in the Dark.cpp"; sourceTree = "<group>"; };
+		54F25D8926C26E5A00CF7CBD /* Evading Capture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Evading Capture.cpp"; sourceTree = "<group>"; };
+		54F25D8A26C271B600CF7CBD /* Janitor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Janitor.cpp; sourceTree = "<group>"; };
+		54F25D8B26C2761800CF7CBD /* Tennis Robot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Tennis Robot.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +184,7 @@
 				543036D926BD1F80003418DF /* Baubles.cpp */,
 				543036DC26BD1FD8003418DF /* Cookies.cpp */,
 				5430375526BE1E49003418DF /* Ghost Encounters.cpp */,
+				54F25D8B26C2761800CF7CBD /* Tennis Robot.cpp */,
 			);
 			path = "AIO 2020";
 			sourceTree = "<group>";
@@ -182,6 +192,7 @@
 		543036DF26BD22EA003418DF /* AIO 2019 */ = {
 			isa = PBXGroup;
 			children = (
+				54F25D8926C26E5A00CF7CBD /* Evading Capture.cpp */,
 				543036E026BD22FD003418DF /* Vases.cpp */,
 				543036E226BD24C7003418DF /* RPS.cpp */,
 				543036F626BD287A003418DF /* Hiring Monks.cpp */,
@@ -196,6 +207,7 @@
 				543036FC26BD290A003418DF /* Street Construction.cpp */,
 				543036FE26BD29BE003418DF /* Castle Cavalry.cpp */,
 				5430370026BD2A0A003418DF /* Cloud Cover.cpp */,
+				54F25D8A26C271B600CF7CBD /* Janitor.cpp */,
 			);
 			path = "AIO 2018";
 			sourceTree = "<group>";
@@ -220,6 +232,7 @@
 				5430371126BD3087003418DF /* Sculpture II.cpp */,
 				5430371226BD30A2003418DF /* Probe.cpp */,
 				5430371326BD30E0003418DF /* Balancing Aeroplanes II.cpp */,
+				54A5662A26C648E90023454D /* Carmen Sanfrancisco II: Bank Robbing.cpp */,
 			);
 			path = "AIO 2016";
 			sourceTree = "<group>";
@@ -229,6 +242,8 @@
 			children = (
 				5430371526BD31BF003418DF /* Snap Dragons II.cpp */,
 				5430371626BD31F3003418DF /* Wet Chairs.cpp */,
+				54A5662926C3F4A90023454D /* Ruckus League.cpp */,
+				54A5662B26C6491D0023454D /* Snap Dragons III: Binary Snap.cpp */,
 			);
 			path = "AIO 2015";
 			sourceTree = "<group>";
@@ -259,6 +274,8 @@
 			children = (
 				5430372126BD341F003418DF /* NORT.cpp */,
 				5430372226BD3449003418DF /* Posters.cpp */,
+				54AE9DA026C3A92F00E612C4 /* Cabinet Shuffle.cpp */,
+				54AE9DA126C3ABE600E612C4 /* King Arthur II.cpp */,
 			);
 			path = "AIO 2012";
 			sourceTree = "<group>";
@@ -332,6 +349,7 @@
 				5430374326BD5FBC003418DF /* Ants.cpp */,
 				5430374426BD5FCF003418DF /* Mouse Hunt.cpp */,
 				54F25D8826BFFF2800CF7CBD /* Spies V: Voices in the Dark.cpp */,
+				54AE9DA226C3B03500E612C4 /* Psychological Jujitsu.cpp */,
 			);
 			path = "AIO 2006";
 			sourceTree = "<group>";
@@ -478,7 +496,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -538,6 +556,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

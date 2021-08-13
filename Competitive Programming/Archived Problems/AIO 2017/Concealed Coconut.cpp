@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("cocoin.txt", "r")
 ouf = open("cocoout.txt", "w")
  
@@ -26,4 +25,3 @@ else:
  
 inf.close()
 ouf.close()
-*/

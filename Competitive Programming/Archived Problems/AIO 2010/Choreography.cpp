@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("dancein.txt", "r")
 ouf = open("danceout.txt", "w")
 d, t = map(int, inf.readline().split())
@@ -23,4 +22,3 @@ for i in range(t):
     a[x] -= 1
     a[y] += 1
 ouf.write(str(res))
-*/

@@ -6,35 +6,47 @@
 //
 
 #include <bits/stdc++.h>
-#define s " "
+bool possible[100001];
 using namespace std;
 
-int main() {
-    ifstream cin("spiesin.txt");
-    ofstream cout("spiesout.txt");
-    int N, K;
-    cin >> N;
-    vector<pair<int, int>> v;
-    for (int i = 0; i < N; i ++) {
-        int a, b;
-        cin >> a >> b;
-        v.push_back({a, 1});
-        v.push_back({b+1, -1});
+int main () {
+    ifstream cin("wherein.txt");
+    ofstream cout("whereout.txt");
+    int N, C;
+    cin >> N >> C;
+    int l=INT_MAX, r=INT_MIN;
+    for (int i = 0; i < C; i++) {
+        int a;
+        cin >> a;
+        a--;
+        l = min(l,a);
+        r = max(r,a);
     }
-    cin >> K;
-    for (int i = 0; i < K; i ++) {
-        int a, b;
-        cin >> a >> b;
-        v.push_back({a, 1});
-        v.push_back({b+1, -1});
+    int close[N-1];
+    for (int i = 0; i < N-1; i++) cin >> close[i];
+    int dif = INT_MAX;
+    for (int i = l; i < r; i++) dif = min(dif,close[i]-(i-l));
+    if (dif > 0) for (int i = l; i < min(min(l+dif,r+1),N-1); i++) possible[i] = true;
+    
+    dif = INT_MAX;
+    for (int i = r-1; i >= l; i--) dif = min(dif,close[i]-(r-1-i));
+    if (dif > 0) for (int i = r; i > max(max(r-dif,l-1),0); i--) possible[i] = true;
+    
+    
+    dif = INT_MAX;
+    if (l!=0) {
+        for (int i = 0; i < r; i++) dif = min(dif,close[i]-i);
+        if (dif <= 0) for (int i = 1-dif; i < l; i++) possible[i] = true;
+        else for (int i = 0; i < l; i++) possible[i] = true;
     }
-    int ctr = 0, res = 0;
-    sort(v.begin(), v.end());
-    for (auto it = v.begin(); it != v.end(); it ++) {
-        ctr += it->second;
-        if (ctr==2) {
-            res += (it+1)->first-it->first-1;
-        }
+    
+    dif = INT_MAX;
+    if (r!=N-1) {
+        for (int i = N-2; i >= l; i--) dif = min(dif,close[i]-(N-2-i));
+        if (dif <= 0) for (int i = N+dif-2; i > r; i--) possible[i] = true;
+        else for (int i = N-1; i > r; i--) possible[i] = true;
     }
-    cout << res;
+    int ans = 0;
+    for (int i = 0; i < N; i++) ans += possible[i];
+    cout << ans;
 }

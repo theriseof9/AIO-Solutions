@@ -6,7 +6,6 @@
 //
 //  Created by Wang Zerui on 6/8/21.
 
-/*
 inf = open("cloudin.txt","r");
 ouf = open("cloudout.txt","w")
  
@@ -27,4 +26,3 @@ for i in range(N-K-1):
 ouf.write(str(minDist))
 ouf.close()
 inf.close()
-*/

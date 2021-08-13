@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 MAX_HUMANS = 100000
 MAX_WIDTH = 1000000
 n = None
@@ -30,4 +29,4 @@ for last in range(n):
 ot.write(str(answer))
 op.close()
 ot.close()
-*/
+

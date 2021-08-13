@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 lines = open("farmin.txt","r").readlines()
 n = int(lines[0])
 fences = lines[1].split()
@@ -37,4 +36,3 @@ while a<n and b<n:
 file = open("farmout.txt",'w')
 file.write(str(n-count))
 file.close()
-*/

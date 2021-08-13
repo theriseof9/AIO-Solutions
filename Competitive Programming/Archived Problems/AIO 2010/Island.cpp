@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("islandin.txt", "r")
 ouf = open("islandout.txt", "w")
 N, L = map(int, inf.readline().split())
@@ -43,4 +42,3 @@ for i in range(2*N):
 ouf.write(str(2*L*total-ans))
 inf.close()
 ouf.close()
-*/

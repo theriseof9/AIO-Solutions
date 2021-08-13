@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("balancein.txt", "r")
 ouf = open("balanceout.txt", "w")
 N = int(inf.readline())
@@ -30,4 +29,3 @@ while l < r:
 ouf.write(str(ans))
 inf.close()
 ouf.close()
-*/

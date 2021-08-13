@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 infile = open("savein.txt", "r")
 outfile = open("saveout.txt", "w")
 n = int(infile.readline())
@@ -49,4 +48,3 @@ else:
     if tp % 3 == 2:
         ans += b4[-2] + 1
 outfile.write(str(ans))
-*/

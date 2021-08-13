@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("cutein.txt", "r")
 ouf = open("cuteout.txt", "w")
  
@@ -18,4 +17,3 @@ for i in range(N):
 ouf.write(str(len(s)-len(s.strip("0"))))
 ouf.close()
 inf.close()
-*/

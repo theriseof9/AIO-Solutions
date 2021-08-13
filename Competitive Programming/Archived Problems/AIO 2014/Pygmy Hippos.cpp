@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 file = open("hippoin.txt", "r")
 daisies = int(file.readline())
  
@@ -24,4 +23,4 @@ answer = max(z1+z2, z1+z3, z1+z4, z2+z4, z3+z4)
 file = open("hippoout.txt", "w")
 file.write(str(answer))
 file.close()
-*/
+

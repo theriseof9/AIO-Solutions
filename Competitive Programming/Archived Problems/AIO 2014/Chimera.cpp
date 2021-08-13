@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 fr = open('chimin.txt', 'r')
 length = int(fr.readline())
 lion = fr.readline()
@@ -86,4 +85,3 @@ scores = [lion_score, goat_score, snake_score]
 fw = open('chimout.txt', 'w')
 fw.write(str(min(scores)))
 fw.close()
-*/

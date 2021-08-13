@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("mousein.txt", "r")
 ouf = open("mouseout.txt", "w")
 x = []
@@ -39,4 +38,3 @@ for i in range(8):
             break
 inf.close()
 ouf.close()
-*/

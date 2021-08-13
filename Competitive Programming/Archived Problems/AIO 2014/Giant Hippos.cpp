@@ -7,7 +7,6 @@
 //  Created by Wang Zerui on 6/8/21.
 //
 
-/*
 inf = open("hippoin.txt", "r")
 ouf = open("hippoout.txt", "w")
  
@@ -60,4 +59,3 @@ elif f-2*ind == 2:
     ans += max(c[0] + c[1], b[ind])
  
 ouf.write(str(ans))
-*/
