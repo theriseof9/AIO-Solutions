@@ -1,8 +1,8 @@
 //
-//  Chimpanzee.cpp
+//  Friendly.cpp
 //  Competitive Programming
 //
-//  Created by Wang Zerui on 13/8/21.
+//  Created by Wang Zerui on 15/8/21.
 //
 
 #include <stdio.h>
