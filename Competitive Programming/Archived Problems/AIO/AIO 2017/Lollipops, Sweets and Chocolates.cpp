@@ -1,8 +1,8 @@
 //
-//  main.cpp
+//  Lollipops, Sweets and Chocolates.cpp
 //  Competitive Programming
 //
-//  Created by Wang Zerui on 6/8/21.
+//  Created by Wang Zerui on 25/9/21.
 //
 
 #include <bits/stdc++.h>

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		543036E626BD26E1003418DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 543036E526BD26E1003418DF /* main.cpp */; };
+		543EA7A126FDFE4A002A9DBD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 543036E526BD26E1003418DF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		54090EE326D9CCBD00CFD7E4 /* Robot Vacuum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Robot Vacuum.cpp"; sourceTree = "<group>"; };
+		54090EE426D9CE6000CFD7E4 /* Art Class II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Art Class II.cpp"; sourceTree = "<group>"; };
 		543036CE26BD1E8D003418DF /* Competitive Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Competitive Programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 		543036D926BD1F80003418DF /* Baubles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baubles.cpp; sourceTree = "<group>"; };
 		543036DC26BD1FD8003418DF /* Cookies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cookies.cpp; sourceTree = "<group>"; };
@@ -99,16 +101,32 @@
 		5430375526BE1E49003418DF /* Ghost Encounters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Ghost Encounters.cpp"; sourceTree = "<group>"; };
 		5430375626BE2722003418DF /* Crowd Surfing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Crowd Surfing.cpp"; sourceTree = "<group>"; };
 		5430375726BE2BF7003418DF /* Settling Debts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Settling Debts.cpp"; sourceTree = "<group>"; };
+		543EA7A226FE0CD3002A9DBD /* Restaurants II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Restaurants II.cpp"; sourceTree = "<group>"; };
+		543EA7A326FE0D21002A9DBD /* Sculpture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sculpture.cpp; sourceTree = "<group>"; };
+		543EA7A426FEEE23002A9DBD /* Lollipops, Sweets and Chocolates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Lollipops, Sweets and Chocolates.cpp"; sourceTree = "<group>"; };
+		548160D226C9F8E400C07BE7 /* The Treeless Trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The Treeless Trees.cpp"; sourceTree = "<group>"; };
+		54A2B63E26CBDFED00A9E82A /* Russian Dolls.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Russian Dolls.cpp"; sourceTree = "<group>"; };
 		54A5662926C3F4A90023454D /* Ruckus League.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Ruckus League.cpp"; sourceTree = "<group>"; };
 		54A5662A26C648E90023454D /* Carmen Sanfrancisco II: Bank Robbing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Carmen Sanfrancisco II: Bank Robbing.cpp"; sourceTree = "<group>"; };
 		54A5662B26C6491D0023454D /* Snap Dragons III: Binary Snap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Snap Dragons III: Binary Snap.cpp"; sourceTree = "<group>"; };
+		54A5662C26C672FE0023454D /* Chimpanzee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chimpanzee.cpp; sourceTree = "<group>"; };
+		54A5662D26C787CD0023454D /* Wormhole.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wormhole.cpp; sourceTree = "<group>"; };
+		54A5662E26C80B1A0023454D /* Awesome Frog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Awesome Frog.cpp"; sourceTree = "<group>"; };
+		54A5662F26C959930023454D /* Detective.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Detective.cpp; sourceTree = "<group>"; };
+		54A5663326C95FE20023454D /* Friendly.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Friendly.cpp; sourceTree = "<group>"; };
 		54AE9DA026C3A92F00E612C4 /* Cabinet Shuffle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Cabinet Shuffle.cpp"; sourceTree = "<group>"; };
 		54AE9DA126C3ABE600E612C4 /* King Arthur II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "King Arthur II.cpp"; sourceTree = "<group>"; };
 		54AE9DA226C3B03500E612C4 /* Psychological Jujitsu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Psychological Jujitsu.cpp"; sourceTree = "<group>"; };
+		54F14B5026CD3281002F083B /* ride.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ride.cpp; sourceTree = "<group>"; };
+		54F14B5126CE93A4002F083B /* Artclass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Artclass.cpp; sourceTree = "<group>"; };
 		54F25D8826BFFF2800CF7CBD /* Spies V: Voices in the Dark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Spies V: Voices in the Dark.cpp"; sourceTree = "<group>"; };
 		54F25D8926C26E5A00CF7CBD /* Evading Capture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Evading Capture.cpp"; sourceTree = "<group>"; };
 		54F25D8A26C271B600CF7CBD /* Janitor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Janitor.cpp; sourceTree = "<group>"; };
 		54F25D8B26C2761800CF7CBD /* Tennis Robot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Tennis Robot.cpp"; sourceTree = "<group>"; };
+		54FB95B826DD193400453994 /* Social Distancing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Social Distancing.cpp"; sourceTree = "<group>"; };
+		54FB95B926DD194A00453994 /* Melody.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Melody.cpp; sourceTree = "<group>"; };
+		54FB95BA26DD1B8600453994 /* Laser Cutter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Laser Cutter.cpp"; sourceTree = "<group>"; };
+		54FB95BB26DE76FD00453994 /* Space Mission.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Space Mission.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +147,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54090EE126D9CB3700CFD7E4 /* AIO 2021 */ = {
+			isa = PBXGroup;
+			children = (
+				54090EE326D9CCBD00CFD7E4 /* Robot Vacuum.cpp */,
+				54090EE426D9CE6000CFD7E4 /* Art Class II.cpp */,
+				54FB95B926DD194A00453994 /* Melody.cpp */,
+				54FB95B826DD193400453994 /* Social Distancing.cpp */,
+				54FB95BB26DE76FD00453994 /* Space Mission.cpp */,
+				54FB95BA26DD1B8600453994 /* Laser Cutter.cpp */,
+			);
+			path = "AIO 2021";
+			sourceTree = "<group>";
+		};
 		543036C526BD1E8D003418DF = {
 			isa = PBXGroup;
 			children = (
@@ -158,22 +189,9 @@
 		543036D826BD1EDC003418DF /* Archived Problems */ = {
 			isa = PBXGroup;
 			children = (
-				5430374526BD6029003418DF /* AIO 2005 */,
-				5430374026BD5F48003418DF /* AIO 2006 */,
-				5430373B26BD5EA7003418DF /* AIO 2007 */,
-				5430373726BD5E01003418DF /* AIO 2008 */,
-				5430373026BD5C94003418DF /* AIO 2009 */,
-				5430372926BD37C6003418DF /* AIO 2010 */,
-				5430372326BD3569003418DF /* AIO 2011 */,
-				5430372026BD340F003418DF /* AIO 2012 */,
-				5430371C26BD3375003418DF /* AIO 2013 */,
-				5430371726BD325B003418DF /* AIO 2014 */,
-				5430371426BD31A5003418DF /* AIO 2015 */,
-				5430370E26BD2E4C003418DF /* AIO 2016 */,
-				5430370226BD2AC9003418DF /* AIO 2017 */,
-				543036FB26BD28E2003418DF /* AIO 2018 */,
-				543036DF26BD22EA003418DF /* AIO 2019 */,
-				543036DB26BD1FC5003418DF /* AIO 2020 */,
+				54F14B4F26CD312A002F083B /* USACO */,
+				54A5663126C95FCC0023454D /* AIIO */,
+				54A5663026C95F520023454D /* AIO */,
 			);
 			path = "Archived Problems";
 			sourceTree = "<group>";
@@ -208,6 +226,7 @@
 				543036FE26BD29BE003418DF /* Castle Cavalry.cpp */,
 				5430370026BD2A0A003418DF /* Cloud Cover.cpp */,
 				54F25D8A26C271B600CF7CBD /* Janitor.cpp */,
+				54A5662F26C959930023454D /* Detective.cpp */,
 			);
 			path = "AIO 2018";
 			sourceTree = "<group>";
@@ -220,6 +239,7 @@
 				5430370926BD2C7F003418DF /* Snake Charmer.cpp */,
 				5430370B26BD2CE6003418DF /* Chimera II.cpp */,
 				5430370D26BD2D19003418DF /* Concealed Coconut.cpp */,
+				543EA7A426FEEE23002A9DBD /* Lollipops, Sweets and Chocolates.cpp */,
 			);
 			path = "AIO 2017";
 			sourceTree = "<group>";
@@ -255,6 +275,7 @@
 				5430371926BD32A2003418DF /* Corey's Party.cpp */,
 				5430371A26BD32F3003418DF /* Chimera.cpp */,
 				5430371B26BD331A003418DF /* Giant Hippos.cpp */,
+				54A5662D26C787CD0023454D /* Wormhole.cpp */,
 			);
 			path = "AIO 2014";
 			sourceTree = "<group>";
@@ -265,6 +286,7 @@
 				5430371D26BD3387003418DF /* Archery.cpp */,
 				5430371E26BD33A8003418DF /* Frog.cpp */,
 				5430371F26BD33CD003418DF /* Save-It.cpp */,
+				54F14B5126CE93A4002F083B /* Artclass.cpp */,
 			);
 			path = "AIO 2013";
 			sourceTree = "<group>";
@@ -276,6 +298,7 @@
 				5430372226BD3449003418DF /* Posters.cpp */,
 				54AE9DA026C3A92F00E612C4 /* Cabinet Shuffle.cpp */,
 				54AE9DA126C3ABE600E612C4 /* King Arthur II.cpp */,
+				54A5662E26C80B1A0023454D /* Awesome Frog.cpp */,
 			);
 			path = "AIO 2012";
 			sourceTree = "<group>";
@@ -288,6 +311,7 @@
 				5430372626BD35E6003418DF /* Tickets.cpp */,
 				5430372726BD3615003418DF /* Alien.cpp */,
 				5430372826BD364C003418DF /* Slicing Paradise.cpp */,
+				543EA7A226FE0CD3002A9DBD /* Restaurants II.cpp */,
 			);
 			path = "AIO 2011";
 			sourceTree = "<group>";
@@ -325,6 +349,7 @@
 				5430373A26BD5E6B003418DF /* Chocolate Shop.cpp */,
 				5430375626BE2722003418DF /* Crowd Surfing.cpp */,
 				5430375726BE2BF7003418DF /* Settling Debts.cpp */,
+				54A2B63E26CBDFED00A9E82A /* Russian Dolls.cpp */,
 			);
 			path = "AIO 2008";
 			sourceTree = "<group>";
@@ -360,8 +385,67 @@
 				5430374626BD6039003418DF /* Landmark.cpp */,
 				5430374726BD604D003418DF /* Curry.cpp */,
 				5430374826BD607F003418DF /* Cute Numbers.cpp */,
+				54A5662C26C672FE0023454D /* Chimpanzee.cpp */,
+				543EA7A326FE0D21002A9DBD /* Sculpture.cpp */,
 			);
 			path = "AIO 2005";
+			sourceTree = "<group>";
+		};
+		548160D126C9F8D400C07BE7 /* AIIO 2014 */ = {
+			isa = PBXGroup;
+			children = (
+				548160D226C9F8E400C07BE7 /* The Treeless Trees.cpp */,
+			);
+			path = "AIIO 2014";
+			sourceTree = "<group>";
+		};
+		54A5663026C95F520023454D /* AIO */ = {
+			isa = PBXGroup;
+			children = (
+				54090EE126D9CB3700CFD7E4 /* AIO 2021 */,
+				543036DB26BD1FC5003418DF /* AIO 2020 */,
+				543036DF26BD22EA003418DF /* AIO 2019 */,
+				543036FB26BD28E2003418DF /* AIO 2018 */,
+				5430370226BD2AC9003418DF /* AIO 2017 */,
+				5430370E26BD2E4C003418DF /* AIO 2016 */,
+				5430371426BD31A5003418DF /* AIO 2015 */,
+				5430371726BD325B003418DF /* AIO 2014 */,
+				5430371C26BD3375003418DF /* AIO 2013 */,
+				5430372026BD340F003418DF /* AIO 2012 */,
+				5430372326BD3569003418DF /* AIO 2011 */,
+				5430372926BD37C6003418DF /* AIO 2010 */,
+				5430373026BD5C94003418DF /* AIO 2009 */,
+				5430373726BD5E01003418DF /* AIO 2008 */,
+				5430373B26BD5EA7003418DF /* AIO 2007 */,
+				5430374026BD5F48003418DF /* AIO 2006 */,
+				5430374526BD6029003418DF /* AIO 2005 */,
+			);
+			path = AIO;
+			sourceTree = "<group>";
+		};
+		54A5663126C95FCC0023454D /* AIIO */ = {
+			isa = PBXGroup;
+			children = (
+				54A5663226C95FD10023454D /* AIIO 2015 */,
+				548160D126C9F8D400C07BE7 /* AIIO 2014 */,
+			);
+			path = AIIO;
+			sourceTree = "<group>";
+		};
+		54A5663226C95FD10023454D /* AIIO 2015 */ = {
+			isa = PBXGroup;
+			children = (
+				54A5663326C95FE20023454D /* Friendly.cpp */,
+			);
+			path = "AIIO 2015";
+			sourceTree = "<group>";
+		};
+		54F14B4F26CD312A002F083B /* USACO */ = {
+			isa = PBXGroup;
+			children = (
+				54F14B5026CD3281002F083B /* ride.cpp */,
+			);
+			path = USACO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,7 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				543036E626BD26E1003418DF /* main.cpp in Sources */,
+				543EA7A126FDFE4A002A9DBD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
