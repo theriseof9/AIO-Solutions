@@ -106,6 +106,7 @@
 		543EA7A426FEEE23002A9DBD /* Lollipops, Sweets and Chocolates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Lollipops, Sweets and Chocolates.cpp"; sourceTree = "<group>"; };
 		548160D226C9F8E400C07BE7 /* The Treeless Trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The Treeless Trees.cpp"; sourceTree = "<group>"; };
 		54A2B63E26CBDFED00A9E82A /* Russian Dolls.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Russian Dolls.cpp"; sourceTree = "<group>"; };
+		54A50BF327094AEA00F08B2F /* No (One) Left.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "No (One) Left.cpp"; sourceTree = "<group>"; };
 		54A5662926C3F4A90023454D /* Ruckus League.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Ruckus League.cpp"; sourceTree = "<group>"; };
 		54A5662A26C648E90023454D /* Carmen Sanfrancisco II: Bank Robbing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Carmen Sanfrancisco II: Bank Robbing.cpp"; sourceTree = "<group>"; };
 		54A5662B26C6491D0023454D /* Snap Dragons III: Binary Snap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Snap Dragons III: Binary Snap.cpp"; sourceTree = "<group>"; };
@@ -337,6 +338,7 @@
 				5430373426BD5D41003418DF /* Nomnomnom.cpp */,
 				5430373526BD5D8F003418DF /* Safe Cracking.cpp */,
 				5430373626BD5DB6003418DF /* Carmen Sanfrancisco.cpp */,
+				54A50BF327094AEA00F08B2F /* No (One) Left.cpp */,
 			);
 			path = "AIO 2009";
 			sourceTree = "<group>";

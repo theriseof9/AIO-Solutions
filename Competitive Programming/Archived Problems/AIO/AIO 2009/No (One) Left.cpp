@@ -1,8 +1,8 @@
 //
-//  main.cpp
+//  No (One) Left.cpp
 //  Competitive Programming
 //
-//  Created by Wang Zerui on 6/8/21.
+//  Created by Wang Zerui on 3/10/21.
 //
 
 #include <bits/stdc++.h>
