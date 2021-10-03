@@ -34,6 +34,7 @@
 /* Begin PBXFileReference section */
 		54090EE326D9CCBD00CFD7E4 /* Robot Vacuum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Robot Vacuum.cpp"; sourceTree = "<group>"; };
 		54090EE426D9CE6000CFD7E4 /* Art Class II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Art Class II.cpp"; sourceTree = "<group>"; };
+		541C4CFB2709F91900553530 /* Election.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Election.cpp; sourceTree = "<group>"; };
 		543036CE26BD1E8D003418DF /* Competitive Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Competitive Programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 		543036D926BD1F80003418DF /* Baubles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Baubles.cpp; sourceTree = "<group>"; };
 		543036DC26BD1FD8003418DF /* Cookies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cookies.cpp; sourceTree = "<group>"; };
@@ -377,6 +378,7 @@
 				5430374426BD5FCF003418DF /* Mouse Hunt.cpp */,
 				54F25D8826BFFF2800CF7CBD /* Spies V: Voices in the Dark.cpp */,
 				54AE9DA226C3B03500E612C4 /* Psychological Jujitsu.cpp */,
+				541C4CFB2709F91900553530 /* Election.cpp */,
 			);
 			path = "AIO 2006";
 			sourceTree = "<group>";

@@ -1,8 +1,8 @@
 //
-//  main.cpp
+//  Election.cpp
 //  Competitive Programming
 //
-//  Created by Wang Zerui on 6/8/21.
+//  Created by Wang Zerui on 3/10/21.
 //
 
 #include <bits/stdc++.h>
