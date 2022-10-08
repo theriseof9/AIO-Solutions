@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15BA598A28F1701A00E7C834 /* Election II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15BA598928F1701A00E7C834 /* Election II.cpp */; };
+		15BA598C28F1702E00E7C834 /* Level Ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15BA598B28F1702E00E7C834 /* Level Ground.cpp */; };
+		15BA598E28F1704900E7C834 /* Composing Pyramids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15BA598D28F1704900E7C834 /* Composing Pyramids.cpp */; };
 		543EA7A126FDFE4A002A9DBD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 543036E526BD26E1003418DF /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15BA598928F1701A00E7C834 /* Election II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Election II.cpp"; sourceTree = "<group>"; };
+		15BA598B28F1702E00E7C834 /* Level Ground.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Level Ground.cpp"; sourceTree = "<group>"; };
+		15BA598D28F1704900E7C834 /* Composing Pyramids.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Composing Pyramids.cpp"; sourceTree = "<group>"; };
 		54090EE326D9CCBD00CFD7E4 /* Robot Vacuum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Robot Vacuum.cpp"; sourceTree = "<group>"; };
 		54090EE426D9CE6000CFD7E4 /* Art Class II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Art Class II.cpp"; sourceTree = "<group>"; };
 		541C4CFB2709F91900553530 /* Election.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Election.cpp; sourceTree = "<group>"; };
@@ -149,6 +155,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15BA598828F16FF500E7C834 /* AIO 2022 */ = {
+			isa = PBXGroup;
+			children = (
+				15BA598928F1701A00E7C834 /* Election II.cpp */,
+				15BA598B28F1702E00E7C834 /* Level Ground.cpp */,
+				15BA598D28F1704900E7C834 /* Composing Pyramids.cpp */,
+			);
+			path = "AIO 2022";
+			sourceTree = "<group>";
+		};
 		54090EE126D9CB3700CFD7E4 /* AIO 2021 */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,6 +422,7 @@
 		54A5663026C95F520023454D /* AIO */ = {
 			isa = PBXGroup;
 			children = (
+				15BA598828F16FF500E7C834 /* AIO 2022 */,
 				54090EE126D9CB3700CFD7E4 /* AIO 2021 */,
 				543036DB26BD1FC5003418DF /* AIO 2020 */,
 				543036DF26BD22EA003418DF /* AIO 2019 */,
@@ -538,6 +555,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BA598E28F1704900E7C834 /* Composing Pyramids.cpp in Sources */,
+				15BA598C28F1702E00E7C834 /* Level Ground.cpp in Sources */,
+				15BA598A28F1701A00E7C834 /* Election II.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
