@@ -8,6 +8,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int a, b, c;
+
 int main() {
     ifstream cin("elecin.txt");
     ofstream cout("elecout.txt");
